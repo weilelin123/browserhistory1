@@ -5,6 +5,21 @@ body{
     background-color: Ivory;
 }
 
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 h1,h2{
     font-family: 'Oswald',sans-serif;
 }
@@ -13,17 +28,17 @@ img {
     margin-right: 10px;
 }
 
-.left {
+left {
     float: left;
     width: 300px;
 }
 
-.right {
+right {
     float: right;
     width: 300px;
 }
 
-.center{
+center{
     margin-left: 300px;
     margin-right: 300px;
 }
